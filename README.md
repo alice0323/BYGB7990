@@ -1,1 +1,9 @@
-# BYGB7990
+# MALICIOUS TWITTER BOT TYPE DETECTION
+WEB ANALYTICS PROJECT
+12/07/2019
+
+Bots on Twitter are accounts that are controlled by computer programs, automatically producing content, and interacting with other accounts. These programs are turned on and off without following a pattern, making them hard to identify. Some bots only exist for providing some interesting tweets to users daily, but some bots are intentionally spreading disturbing or misleading information, which negatively impacts users’ experiences. Those malicious bots indirectly hurt Twitter’s image and business revenue.
+Although Twitter has already been able to identify most of the bot accounts, the company could have done better in Malicious Bots Classification. Therefore, in this project, we propose a novel bot type classification method by using TFIDF. 
+With the supervised machine learning method, this study aims to detect malicious Twitter bot types based on bot behaviors and text analysis. To identify the important indicators for malicious bot type detection, we downloaded different malicious bots’ IDs from Bot Repository and used Python to crawl user’s information and tweets based on these IDs. 
+The methodology of our study divides into two phases. In phase one, we used IBM SPSS Modeler to create testing models with 13 typical fields, because we can leverage the models to find the most important indicator of predicting a certain malicious bot type. In phase two, we created a dictionary for each type of malicious bots and calculated the TFIDF of keywords in the dictionary of each tweet. Finally, with three new fields, we got a better-performed model for malicious Twitter bot detection. 
+This study can help Twitter not just keep suspending all the bots-like accounts but identify malicious bot that should be banned in a more precise way. With a larger dataset from Twitter’s database, Twitter can optimize our method with a more comprehensive dictionary.
